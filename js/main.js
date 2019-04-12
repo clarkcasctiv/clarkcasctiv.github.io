@@ -1,24 +1,55 @@
-function loadImage(id, targetId) {
-  var el = document.getElementById(id);
-  var targetEl = targetId ? document.getElementById(targetId) : el;
-  var imageToLoad;
-  if (el.dataset.image) {
-    imageToLoad = el.dataset.image;
-  } else if (typeof el.currentSrc === "undefined") {
-    imageToLoad = el.src;
-  } else {
-    imageToLoad = el.currentSrc;
-  }    
-  if (imageToLoad) { 
-    var img = new Image();
-    img.src = imageToLoad;
-    img.onload = function() {
-      targetEl.classList.add("is-loaded");
-    };
-  }
-}
+/*
+*=================================
+* Hugo UILite Portfolio v0.8
+*=================================
+*
+* Free version https://uicard.io/products/hugo-uilite
+* Pro version https://uicard.io/products/hugo-uilite-pro
+* Demo https://demo.uicard.io/hugo-uilite-portfolio-demo/
+*
+* Coded By UICardio
+*
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*
+*/
 
-document.addEventListener("DOMContentLoaded", function() {
-  loadImage("wallpaper");
-  loadImage("pictureImage", "picture");
+
+let menuBtn = $("#menuBar");
+
+menuBtn.click(function(){
+
+  $('.hamburger-menu').toggleClass('animate');
+
+  if($(".secondaryMenu").hasClass("active")){
+    
+    $(".secondaryMenu").removeClass("active");
+    setTimeout(function(){
+      $(".primaryMenu").addClass("active");
+    },400);
+
+    
+  } else {
+    $(".primaryMenu").removeClass("active");
+  
+    setTimeout(function(){
+      $(".secondaryMenu").addClass("active");
+    },350);
+  }
+});
+
+$(document).ready(function(){
+  var elements = $(".sidebar > .main-info *");
+
+  console.log(elements);
+
+  for(let i = 0; i < elements.length; i++){
+    setTimeout(function(){
+      $(elements[i].tagName).addClass("bs");
+    }, (400 * i) - 90 * i );
+  }
+
+  setTimeout(function(){
+    $(".main-content").addClass("active");
+  }, 1900);
+
 });
