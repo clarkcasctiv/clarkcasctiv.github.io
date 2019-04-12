@@ -1,9 +1,9 @@
 /* 1. Base */
 html {
   background-color: #00bcf1;
-  background-image: linear-gradient(to bottom right, #00bcf1, #180CAC);
+  background-image: linear-gradient(to bottom right, #00bcf1, #180cac);
   color: #fff;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -41,7 +41,7 @@ a {
 
 .job,
 .button {
-  font-family: "Montserrat", "Quicksand", sans-serif;
+  font-family: 'Montserrat', 'Quicksand', sans-serif;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
@@ -54,7 +54,7 @@ a {
 
 /* 3. Specific */
 .wallpaper {
-  background-image: url("../images/austria.jpg");
+  background-image: url('../images/austria.jpg');
   background-position: center;
   background-size: cover;
   opacity: 0.2;
@@ -110,7 +110,7 @@ a {
 .social a:active {
   opacity: 1;
   transform: scale(1.1);
-  }
+}
 
 .button:hover {
   box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
@@ -130,7 +130,7 @@ a {
 .hr {
   background-color: #ff470f;
   border: none;
-  content: "";
+  content: '';
   height: 1px;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
@@ -164,7 +164,7 @@ a {
 .picture {
   padding-top: 100%;
   position: relative;
-  width: 100%;
+  width: 80%;
 }
 
 .picture-shadow {
