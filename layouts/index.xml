@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pujan Bajracharya</title>
+    <link>https://clarkcasctiv.github.io/layouts/index.html</link>
+    <description>Recent content on Pujan Bajracharya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Sep 2018 17:46:52 +0530</lastBuildDate>
+    
+	<atom:link href="https://clarkcasctiv.github.io/layouts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shades And Shadows</title>
+      <link>https://clarkcasctiv.github.io/layouts/partials/work-experience1.html/</link>
+      <pubDate>Apr, 12 Apr 2018 17:46:52 +0530</pubDate>
+      
+      <guid>https://clarkcasctiv.github.io/layouts/partials/work-experience1.html/</guid>
+      <description>Designing and Developing Laravel Applications.</description>
+    </item>
+    
+    <item>
+      <title>Swift Technology</title>
+      <link>https://clarkcasctiv.github.io/layouts/partials/work-experience2.html/</link>
+      <pubDate>Apr, 12 Apr 2018 17:46:52 +0530</pubDate>
+      
+      <guid>https://clarkcasctiv.github.io/layouts/partials/work-experience2.html/</guid>
+      <description>Developing Financial Applications using .Net Framework such as IME PAY, AEON Wallet, Swift Wallet.
+
+</description>
+    </item>   
+    
+    <item>
+      <title>My Second Blog Post</title>
+      <link>https://clarkcasctiv.github.io/layouts/partials/blog1.html/</link>
+      <pubDate>Tue, 18 Sep 2018 10:27:40 +0530</pubDate>
+      
+      <guid>https://clarkcasctiv.github.io/layouts/partials/blog1.html/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lectus quis lorem rutrum varius. Praesent leo ex, pellentesque quis ornare nec, egestas vitae dui. Morbi luctus porttitor mauris a iaculis. Vestibulum massa augue, cursus sit amet justo nec, dapibus dictum dolor. Praesent in sollicitudin eros. Maecenas ex urna, malesuada ut dui sit amet, rhoncus vulputate ipsum. Morbi sodales eros eget sem condimentum, id blandit ante fermentum. Quisque venenatis, purus sit amet consectetur tempus, urna tellus commodo tellus, sed suscipit est tellus vel mi.</description>
+    </item>
+    
+    <item>
+      <title>This Is a Blog</title>
+      <link>https://clarkcasctiv.github.io/layouts/partials/blog2.html/</link>
+      <pubDate>Mon, 17 Sep 2018 15:57:15 +0530</pubDate>
+      
+      <guid>https://clarkcasctiv.github.io/layouts/partials/blog2.html/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend suscipit massa, vitae tempus libero tempus sit amet. Sed augue erat, iaculis sed lectus at, vestibulum placerat ipsum. Maecenas et nulla viverra, aliquam lacus non, congue est. Duis ornare lacus lectus, ut sollicitudin lacus sodales at. Cras a orci non orci interdum ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc malesuada dignissim fermentum.</description>
+    </item>
+    
+  </channel>
+</rss>
