@@ -174,8 +174,15 @@
     </div>
 
     <footer class="text-center text-muted py-4">
-      Copyright 2019
+      Copyright &copy;
+      <span id="currentYear"></span>
+      Created with <img src="../images/heart.png" alt="love" /> by
+      <a href="https://twitter.com">Pujan Bajracharya</a>
     </footer>
+    <script>
+      var year = new Date().getFullYear()
+      document.getElementById('currentYear').innerHTML = year
+    </script>
     <script src="../js/highlight.min.js"></script>
     <script>
       hljs.initHighlightingOnLoad()
